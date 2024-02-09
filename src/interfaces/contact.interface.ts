@@ -6,3 +6,5 @@ export interface Contact {
     createdAt?: Date;
     updatedAt?: Date;
   }
+
+  export type CreateContact = Omit<Contact, "_id" | "createdAt" | "updatedAt">;

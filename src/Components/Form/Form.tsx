@@ -1,11 +1,10 @@
 import { ChangeEvent, FormEvent, useState, useEffect } from "react";
 import { createContact } from "../../api/contact";
 import { Container } from "./styles";
-import { Contact } from "../../interfaces/contact.interface";
+import { CreateContact } from "../../interfaces/contact.interface";
 
 function Form() {
-  const initialContactState: Contact = {
-    _id: "",
+  const initialContactState: CreateContact = {
     name: "",
     email: "",
     message: "",
