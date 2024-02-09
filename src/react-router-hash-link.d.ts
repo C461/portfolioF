@@ -1,2 +1,2 @@
-declare module 'react-router-hash-link';
-declare module "react-i18next"
+declare module "react-animate-scroll"
+declare module "@formspree/react"
