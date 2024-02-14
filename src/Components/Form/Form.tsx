@@ -72,7 +72,7 @@ function Form() {
         />
         {successMessage && <p style={{ color: "green" }}>{successMessage}</p>}
         {errorMessage && <p style={{ color: "red" }}>{errorMessage}</p>}
-        <button type="submit" className="  p-4 rounded-md">
+        <button type="submit" className=" mt-5 p-4 rounded-md">
           Submit
         </button>
       </form>

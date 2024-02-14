@@ -16,7 +16,7 @@ function About() {
   return (
     <Container>
       <div>
-        <h2 id="about" className="text-center text-5xl">
+        <h2 id="about" className="text-center text-5xl mt-5">
           About Me
         </h2>
         <span className="text-[12px] flex justify-center py-3">
@@ -31,19 +31,17 @@ function About() {
 
         <div className="about-text  w-[50%]  ">
           <div>
-            <p>
+            <p className="mt-[20%]">
               ¡Greetings! I am Camilo, a passionate web developer with a unique
               approach towards creating exceptional online experiences.
             </p>
-            <br />
             <p>
               My toolbox includes technologies like HTML, CSS, and JavaScript,
               which I consider the essential foundation for any web project.
               With sharp skills in React, I embark on building intuitive and
               dynamic interfaces that captivate users and provide a seamless
               experience.
-            </p>{" "}
-            <br />
+            </p>
             <p>
               Plus, I’m immersed in the exciting universe of Node.js and NestJS,
               exploring the server side to create scalable and efficient

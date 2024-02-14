@@ -1,11 +1,13 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  background-color: rgba(33, 33, 33, 0.5);
+  padding: 50px 0;
+  box-shadow: 1px 1px 20px rgba(151, 99, 246, 1);
   margin-top: 10%;
   margin-left: 5%;
   margin-right: 5%;
-  border-radius: 20px;
+  margin-bottom: 2%;
+  border-radius: 20px;  
 
   header {
     text-align: center;
@@ -61,9 +63,10 @@ export const Container = styled.section`
     background: linear-gradient(
       90deg,
       rgba(2, 0, 36, 1) 0%,
-      rgba(54, 15, 117, 1) 37%,
-      rgba(104, 6, 208, 0.5662640056022409) 100%
+      rgba(45, 50, 115, 1) 37%,
+      rgba(45, 50, 115, 0.5662640056022409) 100%
     );
+    box-shadow: 10px -5px 5px rgba(255, 255, 255, 0.2);
   }
   @media (max-width: 1440px) {
     margin-left: 5%;

@@ -1,4 +1,4 @@
-import sharp from "../../assets/splad-fotor-bg-remover-2024012218158.png";
+
 import CamiloOrozco from "../../assets/co.png";
 import { Link as ScrollLink } from "react-scroll";
 import { Container } from "./styles";
@@ -85,15 +85,15 @@ function Info() {
         </div>
       </div>
       <div className="hero-image flex justify-center w-[50%]   ">
-        <img
+        {/* <img
           src={sharp}
           alt="Ilustração"
           className="img-1 text-indigo-500 w-[700px] h-[800px] translate-x-[-5%] translate-y-[-180px]   "
-        />
+        /> */}
         <img
           src={CamiloOrozco}
           alt="me"
-          className="absolute translate-x-[2%]  translate-y-[-10%] rounded-b-[50%] "
+          className="absolute translate-x-[-5px]  translate-y-[-40px] "
         />
       </div>
     </Container>

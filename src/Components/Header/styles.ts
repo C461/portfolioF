@@ -7,7 +7,7 @@ export const Container = styled.header`
   align-items: center;
   padding: 1.8rem 10rem;
   font-family: 'Play', sans-serif;
-  background: rgba(45, 50, 115, .2);
+  /* background: rgba(45, 50, 115, .2); */
   position: fixed;
   top: 0;
   left: 0;

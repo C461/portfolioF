@@ -22,7 +22,14 @@ export const Container = styled.div`
       padding: 1rem 2rem;
       border-radius: 5px;
       outline: none;
-      background-color: rgba(33, 33, 33, .7);
+      background: rgb(2, 0, 36);
+      background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(45, 50, 115, 1) 37%,
+        rgba(45, 50, 115, 0.5662640056022409) 100%
+      );
+      box-shadow: 5px -5px 10px rgba(255, 255, 255, 0.2);
       color: #fff; 
       font-weight: 300;
       &::placeholder{
@@ -39,8 +46,14 @@ export const Container = styled.div`
     button{
       padding: 1rem 6rem;
       text-transform: uppercase;
-      background: rgb(2,0,36);
-      background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(54,15,117,1) 37%, rgba(104,6,208,0.5662640056022409) 100%);
+      background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(45, 50, 115, 1) 37%,
+      rgba(45, 50, 115, 0.5662640056022409) 100%
+    );
+    box-shadow: 10px -5px 10px rgba(255, 255, 255, 0.2);
       
     
     }

@@ -81,7 +81,7 @@ export const GlobalStyle = createGlobalStyle`
   body{
     font-size: 1.6rem;
     -webkit-font-smoothing: antialiased;
-    background-image: url('https://i.pinimg.com/564x/ab/30/e2/ab30e2ed91cec8566c5e954250b3ea48.jpg');
+    background-color: #1d1d1f;
     overflow-x: hidden;
     background-position: center;
     background-size: cover;

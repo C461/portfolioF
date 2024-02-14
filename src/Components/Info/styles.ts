@@ -1,11 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  padding: 100px 0;
+  padding: 150px 0;
   display: flex;
- background-color: rgba(33, 33, 33, 0.2);
- box-shadow: 5px 2px 60px rgba(117, 26, 255, 0.8);
- animation: pulseAnimation 1.7s infinite;
+  box-shadow: 5px 2px 50px rgba(151, 99, 246, .7);
+  animation: pulseAnimation 1.7s infinite;
   margin-top: 10%;
   margin-left: 5%;
   margin-right: 5%;
@@ -14,13 +13,11 @@ export const Container = styled.section`
   .hero-text {
     position: relative;
     z-index: 1;
-    & > 
-    h1 {
+    & > h1 {
       font-size: 7rem;
     }
 
     h3 {
-      
       margin: 1rem 0;
     }
 
@@ -30,21 +27,26 @@ export const Container = styled.section`
   }
   // New added
   .social-media {
-   
-
-    img,
     span {
       font-size: 2rem;
       width: 3rem;
     }
   }
 
- 
+  .absolute {
+    width: 500px;
+    height: 450px;
+    border-radius: 50%;
+  }
 
-
-  .contact{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(54,15,117,1) 37%, rgba(104,6,208,0.5662640056022409) 100%);
+  .contact {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(45, 50, 115, 1) 37%,
+      rgba(45, 50, 115, 0.5662640056022409) 100%
+    );
     box-shadow: 10px -5px 10px rgba(255, 255, 255, 0.2);
   }
 
@@ -55,17 +57,17 @@ export const Container = styled.section`
       h1 {
         font-size: 5rem;
       }
-      .present{
+      .present {
         font-size: 12px;
       }
     }
 
-   .img-1{
-    width: 400px;
-    height: 400px;
-    transform: translateY(2px);
-   }
-    .absolute{
+    .img-1 {
+      width: 400px;
+      height: 400px;
+      transform: translateY(2px);
+    }
+    .absolute {
       width: 300px;
     }
   }
@@ -73,64 +75,62 @@ export const Container = styled.section`
     margin-left: 0;
     margin-right: 0;
     padding: 50px 0;
-    .img-1{
+    .img-1 {
       width: 300px;
       height: 300px;
       transform: translate(-30px, 10px);
-     }
-      .absolute{
-        width: 250px;
-        transform: translate(-40px, 5px);
-      }
-      .cont-2{
-        margin-left: 30px;
-        width: 100%;
-      }
-      .text-1{
-        width: 70%;
-      }
-     
-  }
-  @media (max-width: 835px) {
-    display:block;
-    margin-top: 20%;
-    margin-left: 0;
-    margin-right: 0;
-    .img-1{
-    display: none;
-     }
-      .absolute{
-        display: none;
-      }
-    .cont-2{
+    }
+    .absolute {
+      width: 250px;
+      transform: translate(-40px, 5px);
+    }
+    .cont-2 {
       margin-left: 30px;
       width: 100%;
     }
-    .text-1{
+    .text-1 {
       width: 70%;
     }
-    
+  }
+  @media (max-width: 835px) {
+    display: block;
+    margin-top: 20%;
+    margin-left: 0;
+    margin-right: 0;
+    .img-1 {
+      display: none;
+    }
+    .absolute {
+      display: none;
+    }
+    .cont-2 {
+      margin-left: 30px;
+      width: 100%;
+    }
+    .text-1 {
+      width: 70%;
+    }
   }
   @media (max-width: 480px) {
     margin-top: 45%;
   }
 
   @media (max-width: 375px) {
-    p{
+    p {
       font-size: 13px;
-      margin-top: 10px
+      margin-top: 10px;
     }
-    .cont-2{
+    .cont-2 {
       display: flex;
       flex-direction: column;
     }
-    .social-media{
+    .social-media {
       display: flex;
       flex-direction: row;
-      gap: 1em;    
+      gap: 1em;
     }
 
-    .scroll{
+    .scroll {
       display: none;
     }
   }
