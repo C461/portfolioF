@@ -4,7 +4,7 @@ export const Container = styled.section`
   margin-top: 12rem;
   display: flex flex-column;
   font-family: "Play", sans-serif;
-  box-shadow: 1px 1px 20px rgba(151, 99, 246, 1);
+  box-shadow: 1px 1px 20px rgba(151, 99, 246, .7);
   
   margin-top: 10%;
   margin-left: 5%;
